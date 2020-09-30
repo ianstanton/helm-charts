@@ -1,0 +1,92 @@
+apiVersion: v1
+entries:
+  astronomer:
+  - apiVersion: v1
+    appVersion: 0.16.8
+    created: "2020-09-30T13:29:29.512692496-05:00"
+    dependencies:
+    - condition: global.astronomerEnabled
+      name: astronomer
+      repository: ""
+      tags:
+      - platform
+    - condition: global.nginxEnabled
+      name: nginx
+      repository: ""
+      tags:
+      - platform
+    - condition: global.grafanaEnabled
+      name: grafana
+      repository: ""
+      tags:
+      - monitoring
+    - condition: global.prometheusEnabled
+      name: prometheus
+      repository: ""
+      tags:
+      - monitoring
+    - condition: global.prometheusPostgresExporterEnabled
+      name: prometheus-postgres-exporter
+      repository: ""
+      tags:
+      - monitoring
+    - condition: global.alertmanagerEnabled
+      name: alertmanager
+      repository: ""
+      tags:
+      - monitoring
+    - condition: global.kubeStateEnabled
+      name: kube-state
+      repository: ""
+      tags:
+      - monitoring
+    - condition: global.nodeExporterEnabled
+      name: prometheus-node-exporter
+      repository: ""
+      tags:
+      - monitoring
+    - condition: global.blackboxExporterEnabled
+      name: prometheus-blackbox-exporter
+      repository: ""
+      tags:
+      - monitoring
+    - condition: global.elasticsearchEnabled
+      name: elasticsearch
+      repository: ""
+      tags:
+      - logging
+    - condition: global.kibanaEnabled
+      name: kibana
+      repository: ""
+      tags:
+      - logging
+    - condition: global.fluentdEnabled
+      name: fluentd
+      repository: ""
+      tags:
+      - logging
+    - condition: global.kubedEnabled
+      name: kubed
+      repository: ""
+      tags:
+      - kubed
+    - condition: global.postgresqlEnabled
+      name: postgresql
+      repository: ""
+      tags:
+      - postgresql
+    - condition: global.kedaEnabled
+      name: keda
+      repository: ""
+      tags:
+      - keda
+    description: Helm chart to deploy the Astronomer Platform
+    digest: bfcd0c6e99d1d54acd90e5b625325d226e9d13c8549b291e08d5bc2eae4e791b
+    icon: https://www.astronomer.io/static/iconforLIGHTbackground.svg
+    keywords:
+    - astronomer
+    name: astronomer
+    urls:
+    - https://ianstanton.github.io/helm-charts/astronomer-0.16.8.tgz
+    version: 0.16.8
+generated: "2020-09-30T13:29:29.501146271-05:00"
