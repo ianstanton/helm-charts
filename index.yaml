@@ -2,108 +2,19 @@ apiVersion: v1
 entries:
   airflow:
   - apiVersion: v1
-    created: "2020-09-30T14:28:07.326840254-05:00"
+    created: "2020-10-16T12:09:31.370229068-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: '@stable'
       version: 6.3.12
     description: Helm chart to deploy the Astronomer Platform Airflow module
-    digest: 3b8ecf3cb3d02dc5227d004a1c56ad2e7006d4c957f7e4090c192eacf9ca40c4
+    digest: b62c3daf894a929f02884f5e5a8787eb41b9942460b82d865f45f341dfb2fb2f
     icon: https://www.astronomer.io/static/airflowNewA.png
     keywords:
     - astronomer
     name: airflow
     urls:
-    - https://ianstanton.github.io/helm-charts/airflow-0.15.2.tgz
-    version: 0.15.2
-  astronomer:
-  - apiVersion: v1
-    appVersion: 0.16.8
-    created: "2020-09-30T14:28:07.336422768-05:00"
-    dependencies:
-    - condition: global.astronomerEnabled
-      name: astronomer
-      repository: ""
-      tags:
-      - platform
-    - condition: global.nginxEnabled
-      name: nginx
-      repository: ""
-      tags:
-      - platform
-    - condition: global.grafanaEnabled
-      name: grafana
-      repository: ""
-      tags:
-      - monitoring
-    - condition: global.prometheusEnabled
-      name: prometheus
-      repository: ""
-      tags:
-      - monitoring
-    - condition: global.prometheusPostgresExporterEnabled
-      name: prometheus-postgres-exporter
-      repository: ""
-      tags:
-      - monitoring
-    - condition: global.alertmanagerEnabled
-      name: alertmanager
-      repository: ""
-      tags:
-      - monitoring
-    - condition: global.kubeStateEnabled
-      name: kube-state
-      repository: ""
-      tags:
-      - monitoring
-    - condition: global.nodeExporterEnabled
-      name: prometheus-node-exporter
-      repository: ""
-      tags:
-      - monitoring
-    - condition: global.blackboxExporterEnabled
-      name: prometheus-blackbox-exporter
-      repository: ""
-      tags:
-      - monitoring
-    - condition: global.elasticsearchEnabled
-      name: elasticsearch
-      repository: ""
-      tags:
-      - logging
-    - condition: global.kibanaEnabled
-      name: kibana
-      repository: ""
-      tags:
-      - logging
-    - condition: global.fluentdEnabled
-      name: fluentd
-      repository: ""
-      tags:
-      - logging
-    - condition: global.kubedEnabled
-      name: kubed
-      repository: ""
-      tags:
-      - kubed
-    - condition: global.postgresqlEnabled
-      name: postgresql
-      repository: ""
-      tags:
-      - postgresql
-    - condition: global.kedaEnabled
-      name: keda
-      repository: ""
-      tags:
-      - keda
-    description: Helm chart to deploy the Astronomer Platform
-    digest: d7de6607ce4ce74a7ea210cf4006988647e702f4b705079c7e9474cd64c463e5
-    icon: https://www.astronomer.io/static/iconforLIGHTbackground.svg
-    keywords:
-    - astronomer
-    name: astronomer
-    urls:
-    - https://ianstanton.github.io/helm-charts/astronomer-0.16.8.tgz
-    version: 0.16.8
-generated: "2020-09-30T14:28:07.322830355-05:00"
+    - https://ianstanton.github.io/helm-charts/airflow-0.15.6.tgz
+    version: 0.15.6
+generated: "2020-10-16T12:09:31.352867789-05:00"
