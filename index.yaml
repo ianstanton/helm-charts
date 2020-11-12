@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   airflow:
   - apiVersion: v1
-    created: "2020-11-03T11:40:57.835979421-06:00"
+    created: "2020-11-12T13:32:10.693079483-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -18,7 +18,7 @@ entries:
     - https://ianstanton.github.io/helm-charts/airflow-0.18.1.tgz
     version: 0.18.1
   - apiVersion: v1
-    created: "2020-11-03T11:40:57.832450756-06:00"
+    created: "2020-11-12T13:32:10.686568527-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -34,7 +34,23 @@ entries:
     - https://ianstanton.github.io/helm-charts/airflow-0.18.0.tgz
     version: 0.18.0
   - apiVersion: v1
-    created: "2020-11-03T11:40:57.828192333-06:00"
+    created: "2020-11-12T13:32:10.6809754-05:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: '@stable'
+      version: 6.3.12
+    description: Helm chart to deploy the Astronomer Platform Airflow module
+    digest: a4624f8f85958d5e7f56447a3ba291dfeeb49ee69b97b62caa64fcdd7b6459f2
+    icon: https://www.astronomer.io/static/airflowNewA.png
+    keywords:
+    - astronomer
+    name: airflow
+    urls:
+    - https://ianstanton.github.io/helm-charts/airflow-0.17.3.tgz
+    version: 0.17.3
+  - apiVersion: v1
+    created: "2020-11-12T13:32:10.675685266-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -50,7 +66,23 @@ entries:
     - https://ianstanton.github.io/helm-charts/airflow-0.17.1.tgz
     version: 0.17.1
   - apiVersion: v1
-    created: "2020-11-03T11:40:57.825083799-06:00"
+    created: "2020-11-12T13:32:10.646959546-05:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: '@stable'
+      version: 6.3.12
+    description: Helm chart to deploy the Astronomer Platform Airflow module
+    digest: ed067670ab585357113fa4379bbe906a65dec1a53bc6ae5b0ad455d7da5fc346
+    icon: https://www.astronomer.io/static/airflowNewA.png
+    keywords:
+    - astronomer
+    name: airflow
+    urls:
+    - https://ianstanton.github.io/helm-charts/airflow-0.15.6.01.tgz
+    version: 0.15.6.01
+  - apiVersion: v1
+    created: "2020-11-12T13:32:10.668426615-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -66,7 +98,7 @@ entries:
     - https://ianstanton.github.io/helm-charts/airflow-0.15.6.03.tgz
     version: 0.15.6.03
   - apiVersion: v1
-    created: "2020-11-03T11:40:57.821865082-06:00"
+    created: "2020-11-12T13:32:10.660348264-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -81,20 +113,4 @@ entries:
     urls:
     - https://ianstanton.github.io/helm-charts/airflow-0.15.6.02.tgz
     version: 0.15.6.02
-  - apiVersion: v1
-    created: "2020-11-03T11:40:57.817725571-06:00"
-    dependencies:
-    - condition: postgresql.enabled
-      name: postgresql
-      repository: '@stable'
-      version: 6.3.12
-    description: Helm chart to deploy the Astronomer Platform Airflow module
-    digest: ed067670ab585357113fa4379bbe906a65dec1a53bc6ae5b0ad455d7da5fc346
-    icon: https://www.astronomer.io/static/airflowNewA.png
-    keywords:
-    - astronomer
-    name: airflow
-    urls:
-    - https://ianstanton.github.io/helm-charts/airflow-0.15.6.01.tgz
-    version: 0.15.6.01
-generated: "2020-11-03T11:40:57.800584102-06:00"
+generated: "2020-11-12T13:32:10.616939837-05:00"
